@@ -1,0 +1,66 @@
+
+
+#header-nav {
+  background-color: springgreen;
+  border-radius: 0;
+  border: 0;
+}
+
+
+
+.navbar-brand {
+  padding-top: 25px;
+
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: darkred  ;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: .75;
+
+}
+
+
+#nav-list {
+  font-size: 19px;
+  text-align: center;
+  background-color: pink;
+}
+#nav-list a { 
+  border-bottom: 1px solid black;
+
+}
+h2 {margin-bottom: 40px;}
+
+#arqafon {background-color:cyan;
+width: 98%;
+}
+
+
+
+/*------------Media queries--------------*/
+/*large devs*/
+@media (min-width: 992px) and (max-width: 2039px){
+div ul {display: none;}
+}
+
+/*tablet view*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div ul {display: none;}
+
+}
+
+/*mobile view*/
+
+@media (min-width: 20px) and (max-width: 767px) {
+  
+#arqafon {width: 73%;}
+
+
+  }
